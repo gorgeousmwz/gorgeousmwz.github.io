@@ -1,10 +1,1 @@
-getBingImages([
-    "/th?id=OHR.SleepingFox_ZH-CN2622967726_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "/th?id=OHR.ThailandNewYears_ZH-CN2058192262_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "/th?id=OHR.CastleriggStoneCircleUK_ZH-CN1174541384_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "/th?id=OHR.BlueAmsterdam_ZH-CN0483591394_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "/th?id=OHR.GreenlandHumpback_ZH-CN8145852053_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "/th?id=OHR.KirkjufellAurora_ZH-CN7878752057_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "/th?id=OHR.BoxingDaySunrise_ZH-CN7431512686_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp",
-    "/th?id=OHR.CaribouChristmas_ZH-CN6264028572_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
-])
+getBingImages(["/th?id=OHR.GoldenGateLight_ZH-CN3874822904_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.MinnewankaLake_ZH-CN3020982568_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.MehrangarhJodhpur_ZH-CN2855490711_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.SleepingFox_ZH-CN2622967726_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.ThailandNewYears_ZH-CN2058192262_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.CastleriggStoneCircleUK_ZH-CN1174541384_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.BlueAmsterdam_ZH-CN0483591394_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp","/th?id=OHR.GreenlandHumpback_ZH-CN8145852053_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"])
