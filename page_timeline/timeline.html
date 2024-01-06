@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css/timeline.css">
+</head>
+
+<div class="entries" id="entries-container"></div>
+<script>
+    var request = new XMLHttpRequest();
+    request.open("GET", "json/timeline.json", true);
+    request.onreadystatechange = function() {
+        if (request.readyState === 4 && request.status === 200) {
+            var timelines = JSON.parse(request.responseText);
+            var entriesContainer = document.getElementById("entries-container");
+            for (var i = 0; i < timelines.length; i++) {
+                var entry = timelines[i];
+                let title_class = "title";
+                if (entry.type_en=='MileStone'){title_class = "big title"}
+                var entryHTML = '<div class="entry">' +
+                            '<div class="' + title_class + '">' + entry.year + '.' + entry.month + '</div>' +
+                            '<div class="type">' + '<span>' + entry.type_en + '</span>' + '<img src="img/' + entry.type_en + '.png" width="15" height="15">' + '<span>' + entry.type_cn + '</span>' + '</div>' +
+                            '<div class="body">' + entry.content_en + '<br>' + entry.content_cn + '</div>' + 
+                            '<div class="body">' ;
+                for (var j = 1; j <= entry.image_num; j++){
+                    entryHTML += '<img class="image" src="' + entry.image + '/' + j + '.JPG" width="240" height="160">';  
+                }
+                entryHTML += '</div></div>'
+                entriesContainer.innerHTML += entryHTML;
+            }
+        }
+    };
+    request.send();
+</script>
