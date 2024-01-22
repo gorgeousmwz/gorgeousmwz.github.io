@@ -22,9 +22,9 @@
       <td id="layout-menu">
         <div class="menu-category">Menu</div>
         <div class="menu-item"><a href="../index.html">Home</a></div>
+        <div class="menu-item"><a href="../page_timeline/timeline.html">Timeline</a></div>
         <div class="menu-item"><a href="profile.html" class="current">Profile</a></div>
         <div class="menu-item"><a href="../404.html">Blog</a></div>
-        <div class="menu-item"><a href="../404.html">About</a></div>
       </td>
       <!-- 右侧内容栏 -->
       <td id="layout-content">
@@ -63,8 +63,8 @@
         <p>Ph.D, School of Remote Sensing and Information Engineering, Wuhan University, 09.2024 - now</p>
         <!-- 消息 -->
         <h2>News</h2>
-        <ul>
-          <li><span class="red-text"><b>[2023.12]</b></span>&nbsp;&nbsp;&nbsp;One learned video compression paper is
+        <ul id="news-container">
+          <!-- <li><span class="red-text"><b>[2023.12]</b></span>&nbsp;&nbsp;&nbsp;One learned video compression paper is
             accepted by <b>IEEE TIP</b>!
           </li>
           <li><span class="red-text"><b>[2023.06]</b></span>&nbsp;&nbsp;&nbsp;One learned video compression paper is
@@ -72,70 +72,84 @@
           </li>
           <li><span class="red-text"><b>[2023.05]</b></span>&nbsp;&nbsp;&nbsp;One learned video compression paper is
             accepted by <b>IEEE ISCAS</b>! (lecture presentation)
-          </li>
+          </li> -->
         </ul>
+        <script>
+          var request = new XMLHttpRequest();
+          request.open("GET", "../page_timeline/json/timeline.json", true);
+          request.onreadystatechange = function() {
+              if (request.readyState === 4 && request.status === 200) {
+                  var timelines = JSON.parse(request.responseText);
+                  var entriesContainer = document.getElementById("news-container");
+                  for (var i = 0; i < 5; i++) {
+                      var entry = timelines[i];
+                      let title_class = "title";
+                      if (entry.type_en=='MileStone'){title_class = "big title"}
+                      var entryHTML = '<li>' +
+                                  '<span class="red-text"><b>[' + entry.year + '.' + entry.month + ']</b></span>&nbsp;&nbsp;&nbsp;' + entry.content_en + '!&nbsp;&nbsp;&nbsp;<b>[' + entry.type_en + ']</b>'
+                                  '</li>';
+                      entriesContainer.innerHTML += entryHTML;
+                  }
+              }
+          };
+          request.send();
+        </script>
         <!-- 发表 -->
         <h2>Publications</h2>
           <!-- 正在研究 -->
           <h3>Under review</h3>
           <ol>
             <li>
-              <p><b>Huairui Wang</b>, Nianxiang Fu, Zhenzhong Chen, Shan Liu. Dynamic Kernel-Based Adaptive Spatial
-                Aggregation for Learned Image Compression. Submitted to <b>IEEE TMM</b>, under review.</p>
+              <p>
+                Stay tuned.
+              </p>
             </li>
+            <!-- <li>
+              <p>
+                <b>Huairui Wang</b>, Nianxiang Fu, Zhenzhong Chen, Shan Liu. Dynamic Kernel-Based Adaptive Spatial
+                Aggregation for Learned Image Compression. Submitted to <b>IEEE TMM</b>, under review.
+              </p>
+            </li> -->
           </ol>
           <!-- 期刊 -->
           <h3>Journals</h3>
           <ol>
             <li>
-              <p><b>Huairui Wang</b>, Zhenzhong Chen. Exploring Long- and Short-Range Temporal Information for Learned
+              <p>
+                Stay tuned.
+              </p>
+            </li>
+            <!-- <li>
+              <p>
+                <b>Huairui Wang</b>, Zhenzhong Chen. Exploring Long- and Short-Range Temporal Information for Learned
                 Video Compression. IEEE Transactions on Image Processing (<b>IEEE TIP</b>), 2023. <b>(SCI Top,
-                  IF=10.6)</b></p>
-            </li>
-            <li>
-              <p><b>Huairui Wang</b>, Zhenzhong Chen, Chang Wen Chen. Learned Video Compression via Heterogeneous
-                Deformable Compensation Network. IEEE Transactions on Multimedia (<b>IEEE TMM</b>), 2023. <b>(SCI Top,
-                  IF=8.182)</b></p>
-            </li>
-            <li>
-              <p>Yuantong Zhang, <b>Huairui Wang</b>, Han Zhu, Zhenzhong Chen: Optical Flow Reusing for High-Efficiency
-                Space-Time Video Super Resolution. IEEE Transactions on Circuits and Systems for Video Technology (<b>IEEE
-                  TCSVT</b>), 2022. <b>(SCI Top, IF=5.859)</b></p>
-            </li>
-            <li>
-              <p>Guangjie Ren, Feiyang Liu, <b>Huairui Wang</b>, Daiqin Yang, Tao Wang, Sihan Wang, Yunfei Zhang:
-                Multi-objective optimization based perceptual bit allocation for gaming video coding in VVC. <b>Signal
-                  Processing</b>, 2022. <b>(SCI, IF=4.729)</b></p>
-            </li>
+                  IF=10.6)</b>
+              </p>
+            </li> -->
           </ol>
           <!-- 会议 -->
           <h3>Conferences </h3>
           <ol>
             <li>
-              <p><b>Huairui Wang</b>, Nianxiang Fu, Zhenzhong Chen. Efficient Learned Video Compression via Bidirectional
-                Temporal Information Exploration. IEEE International Symposium on Circuits and Systems (<b>ISCAS</b>),
-                2023 (Lecture Session).</p>
-            </li>
-            <li>
-              <p><b>Huairui Wang</b>*, Guangjie Ren*, Tong Ouyang*, Junxi Zhang, Wenwei Han, Zizheng Liu, Zhenzhong Chen:
-                Perceptual in-Loop Filter for Image and Video Compression. IEEE Conference on Computer Vision and Pattern
-                Recognition Workshops (CVPRW), 2022. (*: Co-first Author)</p>
-            </li>
-            <li>
-              <p>Yuantong Zhang, <b>Huairui Wang</b>, Zhenzhong Chen: Controllable Space-Time Video Super-Resolution via
-                Enhanced Bidirectional Flow Warping. IEEE International Conference on Visual Communications and Image
-                Processing (<b>VCIP</b>) 2022.</p>
-            </li>
-            <li>
-              <p><b>Huairui Wang</b>, Wanjie Sun, Zhenzhong Chen, Daiqin Yang: DOVE: Decomposition Oriented Video
-                super-rEsolution. IEEE International Conference on Visual Communications and Image Processing
-                (<b>VCIP</b>), 2020 (Oral Presentation).</p>
+              <p>Yawei Li et al., Mingyu Ouyang, <b>Wenzhuo Ma</b>, Nian Liu, Hanyou Zheng, Yuantong Zhang, Junxi Zhang, Zhenzhong Chen. 
+                NTIRE 2023 Challenge on Efficient Super-Resolution: Methods and Results. 
+                IEEE Conference on Computer Vision and Pattern Recognition Workshops (<b>CVPRW</b>),
+                2023.
+                <a herf="https://ieeexplore.ieee.org/document/10208768">
+                  [PDF]
+                </a>
+              </p>
             </li>
           </ol>
         <!-- 项目 -->
         <h2>Projects</h2>
         <ol>
           <li>
+            <p>
+              Stay tuned.
+            </p>
+          </li>
+          <!-- <li>
             <p>End-to-End Optimized Video Compression, 2021.01-Present</p>
           </li>
           Research on video characteristics and efficient compression module for learned video compression. The research
@@ -150,112 +164,64 @@
             <li>
               <p>Exploring bidirectional temporal information for video compression</p>
             </li>
-          </ul>
-          <li>
-            <p>End-to-End Optimized Image Compression, 2023.03-Present</p>
-          </li>
-          Research on adaptive spatial aggregation and new technologies for learned video compression. The research
-          contents include:
-          <ul>
-            <li>
-              <p>Dynamic kernel-based adaptive aggregation for learned image compression</p>
-            </li>
-            <li>
-              <p>Investigating masked image training for image compression</p>
-            </li>
-            <li>
-              <p>Exploring end-to-end image compression framework</p>
-            </li>
-          </ul>
-          <li>
-            <p>Optimization of hybrid coding framework based on deep learning, 2020.01-2021.12</p>
-          </li>
-          Research on deep learning based modules for hybrid coding framework. The research contents include:
-          <ul>
-            <li>
-              <p> Research on in-loop filter based on generative adversarial network and perception optimization</p>
-            </li>
-            <li>
-              <p>Research on in-loop filter based on Transformer architecture</p>
-            </li>
-          </ul>
-          <li>
-            <p>Research and development of vehicle-road collaborative intelligent system, 2019.04-2021.09</p>
-          </li>
-          As the main person in charge of the school-enterprise (WHU-Tencent) cooperation project, I participated in and
-          guided the construction and optimization of the intelligent system, and the development content include:
-          <ul>
-            <li>
-              <p>Multi-thread road coordination back-end system construction and maintenance</p>
-            </li>
-            <li>
-              <p>Vehicle behavior analysis algorithm based on real-time object detection algorithm</p>
-            </li>
-            <li>
-              <p>Fast background modeling algorithm and abnormal object detection algorithm for monitoring scenes</p>
-            </li>
-            </li>
-            <li>
-              <p>Development of traffic flow information sensing technology (real-time traffic statistics, lane-level
-                traffic statistics, lane-level congestion detection)</p>
-            </li>
-            </li>
-            <li>
-              <p>Guide the development of algorithms such as traffic accident monitoring, scene weather prediction, and
-                model classification</p>
-            </li>
-          </ul>
+          </ul> -->
         </ol>
         <!-- 提案 -->
         <h2>Proposals</h2>
         <ol>
           <li>
+            <p>
+              Stay tuned.
+            </p>
+          </li>
+          <!-- <li>
             <p> Haichuan Ma, Cunhui Dong, <b>Huairui Wang</b>, Haotian Zhang, Zhe Zhang, Han Zhu, Ding Ding, Li Li,
               Xiaozhong Xu, Shan Liu, Zhenzhong Chen, Dong Liu, "Response to the Call for Proposals on Neural
               Network-Based Image Coding by Team DwOTeo", VC-38-M326, Online, Jun. 2022. (Adopted)</p>
-          </li>
-          <li>
-            <p> Ding Ding, Xiaozhong Xu, Shan Liu, Han Zhu, Yuantong Zhang, <b>Huairui Wang</b>, Zhenzhong Chen,
-              ”Learning-based Image Compression Response to the JPEG AI Call for Proposals”, ISO/IEC JTC 1/SC29/WG1
-              M96051, Online, Jul. 2022.</p>
-          </li>
-          <li>
-            <p> Ding Ding, Xiaozhong Xu, Shan Liu, Han Zhu, Yuantong Zhang, <b>Huairui Wang</b>, Zhenzhong Chen,
-              ”Task-driven end-to-end image compression Response to the JPEG AI Call for Proposals”, ISO/IEC JTC
-              1/SC29/WG1 M96050, Online, Jul. 2022.</p>
-          </li>
-          <li>
-            <p> Tong Ouyang, <b>Huairui Wang</b>, Han Zhu, Zhenzhong Chen "AHG11: Transformer based in-loop filtering",
-              JVET-Y0081, Jan. 2022, Teleconference.</p>
-          </li>
-          <li>
-            <p> Han Zhu, <b>Huairui Wang</b>, Feiyang Liu, Zhenzhong Chen, "EE2 Proposal: Exploration of joint loss
-              function", VC-34-M294, Hainan, June, 2021.</p>
-          </li>
-          <li>
-            <p> Han Zhu, Aolin Feng, <b>Huairui Wang</b>, Guangjie Ren, Jiayi Xie, Yingxue Zhang, Zhenzhong Chen, "EE6:
-              Subjective quality assessment of NIC-0.2", VC-35-M303, Online, Aug, 2021.</p>
-          </li>
+          </li> -->
         </ol>
-        <!-- 竞赛和获奖 -->
-        <h2>Competitions and awards</h2>
+        <!-- 竞赛 -->
+        <h2>Competitions</h2>
         <ol>
           <li>
-            <p>Second-Class Outstanding Academic Scholarship of Wuhan University, 2022</p>
+            <p><b>Ranked 8th</b> in visual feature coding track of the fourth National Artificial Intelligence Competition, 2023</p>
           </li>
           <li>
-            <p>Second prize in the National Mathematical Modeling Competition for Graduate Students, 2022</p>
+            <p><b>Silver Prize</b> in the China International College Student Innovation Competition, 2023</p>
           </li>
           <li>
-            <p>Outstanding Project of National University Student Scientific Research, 2018</p>
+            <p><b>Ranked 16th</b> in NTIRE 2023 Challenge on Efficient Super-Resolution Track, 2023</p>
           </li>
           <li>
-            <p>Zhizhuo Scholarship of Wuhan University, 2017</p>
+            <p><b>National First Prize</b> of the 14th Blue Bridge Cup's Digital Technology Innovation Competition, 2023</p>
+          </li>
+          <li>
+            <p><b>Grand Prize</b> of the first Wuhan University Inuo Student Innovation Achievement Award, 2023</p>
+          </li>
+          <li>
+            <p><b>First Prize</b> in Hubei Provincethe of the 14th Blue Bridge Cup Python programming college students A group, 2023</p>
+          </li>
+          <li>
+            <p><b>First Place</b> in the 11th China Software Cup, 2022</p>
           </li>
         </ol>
-
-        <!-- <p><br />
-<a href="cv/WHR_resume_EN.pdf">A brief cv</a>.</p> -->
+        <!-- 荣誉 -->
+        <h2>Honors</h2>
+        <ol>
+          <li>
+            <p>2022-2023 China National Scholarship, 2023</p>
+          </li>
+          <li>
+            <p>2022-2023 Outstanding Student Scholarship of Wuhan University, 2023</p>
+          </li>
+          <li>
+            <p>2020-2021 Merit Student of Wuhan University, 2021</p>
+          </li>
+          <li>
+            <p>2020-2021 Outstanding Student Scholarship of Wuhan University, 2021</p>
+          </li>
+        </ol>
+      
       </td>
     </tr>
   </table>
