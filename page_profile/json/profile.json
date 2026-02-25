@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Wenzhuo Ma (马文卓)",
+    "menuTitle": "Profile",
+    "topTitle": "Wenzhuo Ma (马文卓)"
+  },
+  "profile": {
+    "avatarLink": "https://gorgeousmwz.github.io/",
+    "avatarSrc": "img/avatar.jpg",
+    "avatarAlt": "alt text",
+    "avatarWidth": "114px",
+    "avatarHeight": "160px",
+    "introLines": [
+      "Ph.D. Student<br />",
+      "<a href='http://iip.whu.edu.cn/index.html'>Institute of Artificial Intelligence and Machine Perception</a>,<br />",
+      "School of Remote Sensing and Information Engineering<br />",
+      "Room 1002, Teaching Experiment Building, Information Sciences Campus,<br />",
+      "Wuhan University, 129 Luoyu Road, Wuhan, China<br />",
+      "E-mail: <a href='mailto:mwzgorgeous@whu.edu.cn'>mwzgorgeous@whu.edu.cn</a><br />",
+      "Profiles: <a href='https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=6aaICVQAAAAJ' target='_blank'>Google Scholar</a> | <a href='https://openreview.net/profile?id=%7EWenzhuo_Ma1' target='_blank'>OpenReview</a>"
+    ]
+  },
+  "menu": [
+    { "id": "about-me", "title": "About me" },
+    { "id": "education", "title": "Education" },
+    { "id": "news", "title": "News" },
+    { "id": "publications", "title": "Publications" },
+    { "id": "projects", "title": "Projects" },
+    { "id": "proposals", "title": "Proposals" },
+    { "id": "competitions", "title": "Competitions" },
+    { "id": "honors", "title": "Honors" }
+  ],
+  "sections": {
+      "about": {
+      "id": "about-me",
+      "title": "About me",
+      "paragraphs": [
+        "I am currently a Ph.D. student at the School of Remote Sensing and Information Engineering, Wuhan University, China, supervised by Professor <a href='https://zhenzhong-chen.github.io/'>Zhenzhong Chen</a>.<br />My research interests include neural image/video compression and image restoration."
+      ]
+    },
+    "education": {
+      "id": "education",
+      "title": "Education",
+      "paragraphs": [
+        "B.E., School of Remote Sensing and Information Engineering, Wuhan University, 09.2020 - 06.2024",
+        "Ph.D, School of Remote Sensing and Information Engineering, Wuhan University, 09.2024 - now"
+      ]
+    },
+    "news": {
+  "id": "news",
+  "title": "News",
+  "items": [
+        {
+          "date": "2026.02",
+          "content": "Happy Chinese New Year",
+          "tag": "Other"
+        },
+        {
+          "date": "2026.01",
+          "content": "DiffVC-RT has been released on arXiv",
+          "tag": "Paper"
+        },
+        {
+          "date": "2025.12",
+          "content": "Ranked 1st (CPU track) and 3rd (GPU track) in the Image Compression track at CLIC 2025",
+          "tag": "Competition"
+        },
+        {
+          "date": "2025.12",
+          "content": "DiffVC-OSD has been accepted to VCIP 2025 as an Oral presentation",
+          "tag": "Paper"
+        },
+        {
+          "date": "2025.04",
+          "content": "Won 1st place in the AI + Image Coding track at the 5th NAIC",
+          "tag": "Competition"
+        }
+      ]
+    },
+    "publications": {
+      "id": "publications",
+      "title": "Publications",
+      "groups": [
+        {
+          "subtitle": "Under review",
+          "items": [
+            "<b>Wenzhuo Ma</b>, Zhenzhong Chen. DiffVC-RT: Towards Practical Real-Time Diffusion-based Perceptual Neural Video Compression. Under review, 2026. <a href='https://arxiv.org/pdf/2601.20564'>[paper]</a>"
+          ]
+        },
+        {
+          "subtitle": "Journals",
+          "items": [
+            "<b>Wenzhuo Ma</b>, Zhenzhong Chen. Diffusion-based Perceptual Neural Video Compression with Temporal Diffusion Information Reuse. ACM Transactions on Multimedia Computing, Communications and Applications (<b>TOMM</b>), 2025. <a href='https://dlnext.acm.org/doi/10.1145/3761815'>[paper]</a>"
+          ]
+        },
+        {
+          "subtitle": "Conferences",
+          "itemsHtml": [
+            "<b>Wenzhuo Ma</b>, Junxi Zhang, Nianxiang Fu, Zhenzhong Chen. PO-RTIntra: Perception-Weighted Rate Allocation and ROI Latent Optimization on DCVC-RT Intra. 7th Challenge on Learned Image Compression (<b>CLIC Oral</b>), 2025. <a href='https://openreview.net/pdf?id=YbtmhIfoyo'>[paper]</a>",
+            "<b>Wenzhuo Ma</b>, Zhenzhong Chen. DiffVC-OSD: One-Step Diffusion-based Perceptual Neural Video Compression Framework. Visual Communications and Image Processing Conference (<b>VCIP Oral</b>), 2025. <a href='https://arxiv.org/pdf/2508.07682'>[paper]</a>",
+            "Jie Liang et al., Zhenyu Hu, Jingyun Liu, <b>Wenzhuo Ma</b>, Ce Wang, Hanyou Zheng, Wanjie Sun, Zhenzhong Chen et al. NTIRE 2024 Restore Any Image Model (RAIM) in the Wild Challenge. IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (<b>CVPRW</b>), 2024. <a href='https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Liang_NTIRE_2024_Restore_Any_Image_Model_RAIM_in_the_Wild_CVPRW_2024_paper.pdf'>[paper]</a>",
+            "Yawei Li et al., Mingyu Ouyang, <b>Wenzhuo Ma</b>, Nian Liu, Hanyou Zheng, Yuantong Zhang, Junxi Zhang, Zhenzhong Chen et al. NTIRE 2023 Challenge on Efficient Super-Resolution: Methods and Results. IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (<b>CVPRW</b>), 2023. <a href='https://ieeexplore.ieee.org/document/10208768'>[paper]</a>"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "id": "projects",
+      "title": "Projects",
+      "items": [
+        "Stay tuned."
+      ]
+    },
+    "proposals": {
+      "id": "proposals",
+      "title": "Proposals",
+      "items": [
+        "Wenzhuo Zhang, Luyi Qin, Xinxin Chen, Nianxiang Fu, Haodong Qu, <b>Wenzhuo Ma</b>, Junxi Zhang, Zhenzhong Chen. [AHG17] Wuhan University's Response in Joint Call for Evidence on Video Compression with Capability beyond VVC. JVET-AN0198, 40th Meeting, Geneva, CH, 3-12 October 2025.",
+        "Xinxin Chen, Nianxiang Fu, Wenzhuo Zhang, <b>Wenzhuo Ma</b>, Junxi Zhang, Zhenzhong Chen. EE1-3.5: Retrained DRF in NNVC-14.0. JVET-AN0195, 40th Meeting, Geneva, CH, 3-12 October 2025. <b>[Adopted]</b>",
+        "Wenzhuo Zhang, Nianxiang Fu, Xinxin Chen, <b>Wenzhuo Ma</b>, Junxi Zhang, Zhenzhong Chen. EE1-3.1: Deep Reference Frame Generation for Inter Prediction Enhancement with Structural Re-parameterization. JVET-AN0193, 40th Meeting, Geneva, CH, 3-12 October 2025.",
+        "Wenzhuo Zhang, Chengzhuo Gui, Nianxiang Fu, Xinxin Chen, <b>Wenzhuo Ma</b>, Zhenzhong Chen. AHG11: Deep Reference Frame Generation for Inter Prediction Enhancement with Structural Re-parameterization. JVET-AM0177, 39th Meeting, Daejeon, KR, 26 June - 4 July 2025.",
+        "Nianxiang Fu, <b>Wenzhuo Ma</b>, Zhenzhong Chen. AHG14: The extension of SADL library. JVET-AM0178, 39th Meeting, Daejeon, KR, 26 June - 4 July 2025. <b>[Adopted]</b>",
+        "Xinxin Chen, Nianxiang Fu, Wenzhuo Zhang, Junxi Zhang, Ding Ding, <b>Wenzhuo Ma</b>, Zhenzhong Chen. EE1-3.2: Deep Reference Frame Generation for Inter Prediction Enhancement. JVET-AM0175, 39th Meeting, Daejeon, KR, 26 June - 4 July 2025. <b>[Adopted]</b>",
+        "<b>Wenzhuo Ma</b>, Nianxiang Fu, Weijie Bao, Zhenzhong Chen. AHG14: The extension of SADL library. JVET-AL0100, 38th Meeting, by teleconference, 26 March - 4 April 2025. <b>[Adopted]</b>"
+      ]
+    },
+    "competitions": {
+      "id": "competitions",
+      "title": "Competitions",
+      "itemsHtml": [
+        "<b>1st Place</b> in the Image Compression CPU Track of the 7th Challenge on Learned Image Compression (CLIC), 2025. <b>[Top-ranked member in the team]</b>",
+        "<b>3rd Place</b> in the Image Compression GPU Track of the 7th Challenge on Learned Image Compression (CLIC), 2025. <b>[Top-ranked member in the team]</b>",
+        "<b>Second Prize</b> in the 22st 'Huawei Cup' China Graduate Mathematical Modeling Competition, 2025",
+        "<b>1st Place (1/2588)</b> in the AI + Image Coding Track of the 5th National Artificial Intelligence Competition (NAIC), 2025. Ranked 1st in the preliminary round, semifinal, and final. <b>[Top-ranked member in the team]</b>",
+        "<b>Second Prize</b> in the 21st 'Huawei Cup' China Graduate Mathematical Modeling Competition, 2024",
+        "<b>4th Place</b> in the NTIRE 2024 Challenge on Restore Any Image Model in the Wild, 2024.",
+        "<b>8th Place (8/2839)</b> in the AI + Visual Feature Coding Track of the 4th National Artificial Intelligence Competition (NAIC), 2023. <b>[Top-ranked member in the team]</b>",
+        "<b>Silver Prize</b> in the China International College Student Innovation Competition, 2023.",
+        "<b>16th Place</b> in the NTIRE 2023 Challenge on Efficient Super-Resolution, 2023.",
+        "<b>First Prize</b> in the 14th Blue Bridge Cup Digital Technology Innovation Competition, 2023.",
+        "<b>Grand Prize</b> in the 1st Wuhan University INNO Student Innovation Achievement Award, 2023.",
+        "<b>First Prize</b> in the Hubei Province Division, Python Programming Category (Group A), the 14th Blue Bridge Cup, 2023.",
+        "<b>1st Place</b> in the 11th China Software Cup, 2022."
+      ]
+    },
+    "honors": {
+      "id": "honors",
+      "title": "Honors",
+      "items": [
+        "2024-2025 Second-Class Academic Excellence Scholarship of School of Remote Sensing and Information Engineering, Wuhan University",
+        "2024-2025 First-Class Outstanding Freshman Scholarship (Graduate Level) of Wuhan University",
+        "2022-2023 China National Scholarship",
+        "2022-2023 Second-Class Outstanding Student Scholarship of Wuhan University",
+        "2020-2021 Merit Student of Wuhan University",
+        "2020-2021 First-Class Outstanding Student Scholarship of Wuhan University"
+      ]
+    }
+  }
+}
