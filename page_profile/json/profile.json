@@ -51,6 +51,11 @@
   "title": "News",
   "items": [
         {
+          "date": "2026.05",
+          "content": "Ranked 1st in the End-to-End Track of the 5th Grand Challenge on Neural Network-based Video Coding",
+          "tag": "Competition"
+        },
+        {
           "date": "2026.01",
           "content": "Two papers are accepted to ISCAS 2026",
           "tag": "Paper"
@@ -68,11 +73,6 @@
         {
           "date": "2025.12",
           "content": "Mamba-DRF has been accepted to PCS 2025 as one of top five papers",
-          "tag": "Paper"
-        },
-        {
-          "date": "2025.12",
-          "content": "LDCIC has been accepted to PCS 2025 as an Oral presentation",
           "tag": "Paper"
         }
       ]
@@ -96,6 +96,8 @@
         {
           "subtitle": "Conferences",
           "itemsHtml": [
+            "Wenzhuo Zhang, Luyi Qin, Xinxin Chen, Nianxiang Fu, Haodong Qu, <b>Wenzhuo Ma</b>, Junxi Zhang, Zhenzhong Chen. Learning-Enhanced Video Compression with Capability Beyond VVC. IEEE International Symposium on Circuits and Systems (<b>ISCAS, Poster</b>), 2026. <a href='https://tbd'>[paper]</a>",
+            "Xinxin Chen, Nianxiang Fu, Wenzhuo Zhang, Junxi Zhang, Ding Ding, <b>Wenzhuo Ma</b>, Zhenzhong Chen. On Performance of NNVC Inter-Coding. IEEE International Symposium on Circuits and Systems (<b>ISCAS, Oral</b>), 2026. <a href='https://tbd'>[paper]</a>",
             "<b>Wenzhuo Ma</b>, Junxi Zhang, Nianxiang Fu, Zhenzhong Chen. PO-RTIntra: Perception-Weighted Rate Allocation and ROI Latent Optimization on DCVC-RT Intra. 7th Challenge on Learned Image Compression (<b>CLIC, Oral</b>), 2025. <a href='https://openreview.net/pdf?id=YbtmhIfoyo'>[paper]</a>",
             "<b>Wenzhuo Ma*</b>, Nianxiang Fu*, Junxi Zhang*, Yuantong Zhang*, Zhenzhong Chen. Low-Decoding-Complexity Learned Image Compression with Masked Convolutional Layer Re-parameterization. Picture Coding Symposium (<b>PCS, Oral</b>), 2025. <a href='https://ieeexplore.ieee.org/abstract/document/11417681'>[paper]</a>",
             "Wenzhuo Zhang, <b>Wenzhuo Ma</b>, Nianxiang Fu, Junxi Zhang, Zhenzhong Chen. Mamba-based Deep Reference Frame Generation for Inter Prediction Enhancement in NNVC. Picture Coding Symposium (<b>PCS, Oral, Top Five Paper</b>), 2025. <a href='https://ieeexplore.ieee.org/abstract/document/11417505'>[paper]</a>",
@@ -130,6 +132,7 @@
       "id": "competitions",
       "title": "Competitions",
       "itemsHtml": [
+        "<b>1st Place</b> in the End-to-End Track of the 5th Grand Challenge on Neural Network-based Video Coding (GC-NNVC), 2026. <b>[Student Technical Lead]</b>",
         "<b>1st Place</b> in the Image Compression CPU Track of the 7th Challenge on Learned Image Compression (CLIC), 2025. <b>[Top-ranked member in the team]</b>",
         "<b>3rd Place</b> in the Image Compression GPU Track of the 7th Challenge on Learned Image Compression (CLIC), 2025. <b>[Top-ranked member in the team]</b>",
         "<b>Second Prize</b> in the 22st 'Huawei Cup' China Graduate Mathematical Modeling Competition, 2025",
