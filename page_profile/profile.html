@@ -10,6 +10,9 @@
   <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="" />
   <link rel="shortcut icon" href="img/website_icon.png" />
   <link rel="bookmark" href="img/website_icon.png" type="image/x-icon" />
   <title>Wenzhuo Ma (马文卓)</title>
@@ -22,7 +25,22 @@
       <td id="layout-content"></td>
     </tr>
   </table>
+  <div id="visitor-counter" aria-live="polite">
+    <span class="visitor-counter-badge">Homepage views: <span id="busuanzi_site_pv">Loading...</span></span>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
   <script type="text/javascript" src="js/profile-render.js"></script>
+  <script type="text/javascript">
+    (function () {
+      var counter = document.getElementById('busuanzi_site_pv');
+      if (counter && /^(localhost|127\.0\.0\.1|\[::1\])$/.test(window.location.hostname)) {
+        counter.textContent = 'Available after deployment';
+      }
+    })();
+  </script>
+  <script src="https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js" defer></script>
 </body>
 
 </html>

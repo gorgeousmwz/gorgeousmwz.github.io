@@ -28,7 +28,8 @@
     { "id": "projects", "title": "Projects" },
     { "id": "proposals", "title": "Proposals" },
     { "id": "competitions", "title": "Competitions" },
-    { "id": "honors", "title": "Honors" }
+    { "id": "honors", "title": "Honors" },
+    { "id": "conference-footprints", "title": "Conference Footprints" }
   ],
   "sections": {
       "about": {
@@ -51,6 +52,11 @@
   "title": "News",
   "items": [
         {
+          "date": "2026.07",
+          "content": "DiffCVE has been released on arXiv",
+          "tag": "Paper"
+        },
+        {
           "date": "2026.06",
           "content": "Achieved two championships and one runner-up position at NTIRE 2026",
           "tag": "Competition"
@@ -69,11 +75,6 @@
           "date": "2026.01",
           "content": "DiffVC-RT has been released on arXiv",
           "tag": "Paper"
-        },
-        {
-          "date": "2025.12",
-          "content": "Ranked 1st (CPU track) and 3rd (GPU track) in the Image Compression track at CLIC 2025",
-          "tag": "Competition"
         }
       ]
     },
@@ -84,6 +85,7 @@
         {
           "subtitle": "Under review",
           "items": [
+            "Wenqiang Xiao, <b>Wenzhuo Ma</b>, Junxi Zhang, Zhenzhong Chen. DiffCVE: Diffusion-based Compressed Video Enhancement. Under review, 2026. <a href='https://arxiv.org/abs/2607.07195v1'>[paper]</a>",
             "<b>Wenzhuo Ma</b>, Zhenzhong Chen. DiffVC-RT: Towards Practical Real-Time Diffusion-based Perceptual Neural Video Compression. Under review, 2026. <a href='https://arxiv.org/pdf/2601.20564'>[paper]</a>"
           ]
         },
@@ -164,6 +166,61 @@
         "2022-2023 Second-Class Outstanding Student Scholarship of Wuhan University",
         "2020-2021 Merit Student of Wuhan University",
         "2020-2021 First-Class Outstanding Student Scholarship of Wuhan University"
+      ]
+    },
+    "conference-footprints": {
+      "id": "conference-footprints",
+      "title": "Conference Footprints",
+      "subtitle": "Places where I have presented and connected with the research community.",
+      "events": [
+        {
+          "name": "ICME 2026",
+          "city": "Bangkok, Thailand",
+          "date": "2026.07.05-2026.07.09",
+          "coordinates": [13.7563, 100.5018]
+        },
+        {
+          "name": "ISCAS 2026",
+          "city": "Shanghai, China",
+          "date": "2026.05.24-2026.05.27",
+          "coordinates": [31.2304, 121.4737]
+        },
+        {
+          "name": "VALSE 2026",
+          "city": "Wuhan, China",
+          "date": "2026.05.08-2026.05.10",
+          "coordinates": [30.5928, 114.3055]
+        },
+        {
+          "name": "PCS 2025",
+          "city": "Aachen, Germany",
+          "date": "2025.12.08-2025.12.11",
+          "coordinates": [50.7766, 6.0834]
+        },
+        {
+          "name": "VCIP 2025",
+          "city": "Klagenfurt, Austria",
+          "date": "2025.12.01-2025.12.04",
+          "coordinates": [46.6239, 14.3076]
+        },
+        {
+          "name": "JVET 39th Meeting",
+          "city": "Daejeon, South Korea",
+          "date": "2025.06.26-2025.07.04",
+          "coordinates": [36.3690, 127.3742]
+        },
+        {
+          "name": "AVS 93rd Meeting",
+          "city": "Shenyang, China",
+          "date": "2025.06.11-2025.06.14",
+          "coordinates": [41.8057, 123.4315]
+        },
+        {
+          "name": "AVS 86th Meeting",
+          "city": "Lichuan, China",
+          "date": "2023.08.21-2023.08.27",
+          "coordinates": [30.3000, 108.8500]
+        }
       ]
     }
   }
