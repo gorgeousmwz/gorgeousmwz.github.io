@@ -52,6 +52,11 @@
   "title": "News",
   "items": [
         {
+          "date": "2026.09",
+          "content": "Ranked 1st in the LoViF 2026 The Challenge on Ultra-Low Bitrate Image Compression @ ECCV 2026",
+          "tag": "Competition"
+        },
+        {
           "date": "2026.08",
           "content": "DiffVC-ONE has been released on arXiv",
           "tag": "Paper"
@@ -99,6 +104,9 @@
         {
           "subtitle": "Conferences",
           "itemsHtml": [
+            "Xiaoyue Ling et al., Junxi Zhang, Qizhi Huang, Yifei Wang, <b>Wenzhuo Ma</b>, Zhenzhong Chen. LoViF 2026 Challenge on Ultra-Low Bitrate Image Compression: Methods and Results. European Conference on Computer Vision Workshops (<b>ECCVW</b>), 2026. <a href='https://openreview.net/pdf?id=CSFBAUIvM4'>[paper]</a>",
+            "Xin Li et al., Qizhi Huang, Junxi Zhang, Yifei Wang, <b>Wenzhuo Ma</b>. LoViF 2026 AIGC Image Compression Challenge: Methods and Results. European Conference on Computer Vision Workshops (<b>ECCVW</b>), 2026. <a href='https://openreview.net/pdf?id=41hfEpLx7Z'>[paper]</a>",
+            "Xiang Chen et al., Jingyun Liu, Xingchen Yi, Hansen Shi, Ruiyi Liu, Jirui Xie, Tao Liu, <b>Wenzhuo Ma</b>. The Second LoViF 2026 Challenge on Real-World All-in-One Image Restoration: Methods and Results. European Conference on Computer Vision Workshops (<b>ECCVW</b>), 2026. <a href='https://openreview.net/pdf?id=mNWsqvlNiB'>[paper]</a>",
             "Tian Shu, Fuqiang Bai, Xinxin Chen, Yuantong Zhang, Jiaxin Chen, <b>Wenzhuo Ma</b>, Daiqin Yang, Zhenzhong Chen. Motion-Guided Multi-Scale Fusion for High-FPS Video Frame Interpolation. IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (<b>CVPRW, Poster</b>), 2026. <a href='https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Shu_Motion-Guided_Multi-Scale_Fusion_for_High-FPS_Video_Frame_Interpolation_CVPRW_2026_paper.pdf'>[paper]</a>",
             "George Ciubotariu et al., Zhenzhong Chen, Jiaxin Chen, Xinxin Chen, Yuantong Zhang, Fuqiang Bai, Tian Shu, <b>Wenzhuo Ma</b>, Daiqin Yang et al. High FPS Video Frame Interpolation Challenge at NTIRE 2026. IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (<b>CVPRW</b>), 2026. <a href='https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Ciubotariu_High_FPS_Video_Frame_Interpolation_Challenge_at_NTIRE_2026_CVPRW_2026_paper.pdf'>[paper]</a>",
             "Jiatong Li et al., Zhenzhong Chen, Tongqi Guo, Ruhan Liu, Sangzi Shi, Huazhang Hua, Jie Yang, <b>Wenzhuo Ma</b>, Yuantong Zhang, Daiqin Yang et al. The First Challenge on Mobile Real-World Image Super-Resolution at NTIRE 2026: Benchmark Results and Method Overview. IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (<b>CVPRW</b>), 2026. <a href='https://openaccess.thecvf.com/content/CVPR2026W/NTIRE/papers/Li_The_First_Challenge_on_Mobile_Real-World_Image_Super-Resolution_at_NTIRE_CVPRW_2026_paper.pdf'>[paper]</a>",
@@ -138,19 +146,23 @@
       "id": "competitions",
       "title": "Competitions",
       "itemsHtml": [
-        "<b>1st Place</b> in the Extreme 16X Track of the High FPS Video Frame Interpolation Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2026.",
-        "<b>1st Place</b> in the Classic Track of the High FPS Video Frame Interpolation Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2026.",
-        "<b>2st Place</b> in the Mobile Real-World Image Super-Resolution Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2026.",
-        "<b>1st Place</b> in the End-to-End Track of the 5th Grand Challenge on Neural Network-based Video Coding (GC-NNVC) in conjunction with ISCAS, 2026. <b>[Technical Lead]</b>",
-        "<b>1st Place</b> in the Image Compression CPU Track of the 7th Challenge on Learned Image Compression (CLIC) in conjunction with PCS, 2025. <b>[Top-ranked member in the team]</b>",
-        "<b>3rd Place</b> in the Image Compression GPU Track of the 7th Challenge on Learned Image Compression (CLIC) in conjunction with PCS, 2025. <b>[Top-ranked member in the team]</b>",
+        "<b>1st Place</b> in the Challenge on Ultra-Low Bitrate Image Compression at the Low-Level Vision Frontiers (LoViF) in conjunction with ECCV, 2026. <b>[nezha, Project Manager]</b>",
+        "<b>2nd Place</b> in the EventAid Frame Interpolation Challenge at the Event-Based Multimodal Vision: Imaging, Perception, and Understanding (EBMV) in conjunction with ECCV, 2026. <b>[treeapple]</b>",
+        "<b>3rd Place</b> in the Subjective Track of the AIGC Image Compression Challenge at the Low-Level Vision Frontiers (LoViF) in conjunction with ECCV, 2026. <b>[prophet1, Project Manager]</b>",
+        "<b>4th Place</b> in the Challenge on Real-World All-in-One Image Restoration at the Low-Level Vision Frontiers (LoViF) in conjunction with ECCV, 2026. <b>[Pheonix]</b>",
+        "<b>1st Place</b> in the Extreme 16X Track of the High FPS Video Frame Interpolation Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2026. <b>[hawkeye]</b>",
+        "<b>1st Place</b> in the Classic Track of the High FPS Video Frame Interpolation Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2026. <b>[hawkeye]</b>",
+        "<b>2nd Place</b> in the Mobile Real-World Image Super-Resolution Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2026. <b>[Antman]</b>",
+        "<b>1st Place</b> in the End-to-End Track of the 5th Grand Challenge on Neural Network-based Video Coding (GC-NNVC) in conjunction with ISCAS, 2026. <b>[Groot, Technical Lead]</b>",
+        "<b>1st Place</b> in the Image Compression CPU Track of the 7th Challenge on Learned Image Compression (CLIC) in conjunction with PCS, 2025. <b>[IronMan, Top-ranked member in the team]</b>",
+        "<b>3rd Place</b> in the Image Compression GPU Track of the 7th Challenge on Learned Image Compression (CLIC) in conjunction with PCS, 2025. <b>[Thanos, Top-ranked member in the team]</b>",
         "<b>Second Prize</b> in the 22st 'Huawei Cup' China Graduate Mathematical Modeling Competition, 2025",
-        "<b>1st Place (1/2588)</b> in the AI + Image Coding Track of the 5th National Artificial Intelligence Competition (NAIC), 2025. Ranked 1st in the preliminary round, semifinal, and final. <b>[Top-ranked member in the team]</b>",
+        "<b>1st Place (1/2588)</b> in the AI + Image Coding Track of the 5th National Artificial Intelligence Competition (NAIC), 2025. Ranked 1st in the preliminary round, semifinal, and final. <b>[AICoder, Top-ranked member in the team]</b>",
         "<b>Second Prize</b> in the 21st 'Huawei Cup' China Graduate Mathematical Modeling Competition, 2024",
-        "<b>4th Place</b> in the Restore Any Image Model in the Wild Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2024.",
-        "<b>8th Place (8/2839)</b> in the AI + Visual Feature Coding Track of the 4th National Artificial Intelligence Competition (NAIC), 2023. <b>[Top-ranked member in the team]</b>",
+        "<b>4th Place</b> in the Restore Any Image Model in the Wild Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2024. <b>[IIP_IR]</b>",
+        "<b>8th Place (8/2839)</b> in the AI + Visual Feature Coding Track of the 4th National Artificial Intelligence Competition (NAIC), 2023. <b>[AICoder, Top-ranked member in the team]</b>",
         "<b>Silver Prize</b> in the China International College Student Innovation Competition, 2023.",
-        "<b>16th Place</b> in the Efficient Super-Resolution Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2023.",
+        "<b>16th Place</b> in the Efficient Super-Resolution Challenge at New Trends in Image Restoration and Enhancement (NTIRE) in conjunction with CVPR, 2023. <b>[Sissie_Lab]</b>",
         "<b>First Prize</b> in the 14th Blue Bridge Cup Digital Technology Innovation Competition, 2023.",
         "<b>Grand Prize</b> in the 1st Wuhan University INNO Student Innovation Achievement Award, 2023.",
         "<b>First Prize</b> in the Hubei Province Division, Python Programming Category (Group A), the 14th Blue Bridge Cup, 2023.",
